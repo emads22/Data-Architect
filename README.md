@@ -11,26 +11,47 @@
 - **Google Drive Integration**: Enables persistent storage of models and datasets across sessions.
 - **Preprocessing and Export**: Includes preprocessing, visualization, and dataset export functionalities for end-to-end data management.
 
-## Setup and Installation
-1. **Install Dependencies**:
+## Setup 
+
+1. **Clone the repository** and open the **Colab** notebook.
+   - Clone the repository 
+     ```bash
+     git clone https://github.com/emads22/Data-Architect.git
+     cd Data-Architect
+     ```
+   - Open the **Colab** notebook in Google **Colab**. You can also find it [here](https://colab.research.google.com/drive/1ixzyRIIH_tkyF8zKJaQxGyW3CaMjsUZF).
+   - **Select a Runtime**:
+    Click on `Runtime` > `Change runtime type`, set the hardware accelerator to `GPU` (preferably `T4` or higher), and connect to the runtime. This ensures faster processing during model inference.
+
+2. **Install Dependencies**:
    Run the following command to install the required libraries:
    ```bash
    !pip install -q requests torch bitsandbytes transformers sentencepiece accelerate openai httpx==0.27.2 gradio
    ```
-
-2. **Mount Google Drive**:
+3. **Mount Google Drive**:
    Mount Google Drive to the Colab environment for saving and accessing files:
    ```python
    from google.colab import drive
    drive.mount("/content/drive")
    ```
-
-3. **Set Up API Keys**:
+4. **Set Up API Keys**:
    Configure secrets for Hugging Face Hub and OpenAI:
    ```python
    from huggingface_hub import login
    login("your-hugging-face-token")
    ```
+5. **Choose where to save the models**:
+   - For **persistent storage**, set the directory to Google Drive:
+     ```python
+     DRIVE_DIR = "/content/drive/MyDrive"
+     DRIVE_MODELS_DIR = DRIVE_DIR + "/my_models"
+     ```
+   - For **temporary storage**, set the directory to the Colab runtime (non-persistent):
+     ```python
+     DRIVE_DIR = "/content"
+     DRIVE_MODELS_DIR = DRIVE_DIR + "/my_models"
+     ```
+6. **Run the Gradio interface** to start using the app.
 
 ## Usage
 1. **Customize Your Dataset**:
