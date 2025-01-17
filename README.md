@@ -62,7 +62,8 @@
    - Use the Gradio interface to generate synthetic datasets based on your inputs.
 
 3. **Export and Save**:
-   - Save generated datasets and models to Google Drive for persistent storage or download them directly from the interface.
+   - **Copy the dataset**: Copy the generated dataset directly from the interface.
+   - **Save the models**: Save models persistently to Google Drive for reuse in future sessions.
 
 4. **Validate and Utilize**:
    - Review and validate the generated datasets for use in your data science or machine learning pipelines.
