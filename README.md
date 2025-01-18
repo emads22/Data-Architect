@@ -19,7 +19,7 @@
      git clone https://github.com/emads22/Data-Architect.git
      cd Data-Architect
      ```
-   - Open the **Colab** notebook in Google **Colab**. You can also find it [here](https://colab.research.google.com/drive/1ixzyRIIH_tkyF8zKJaQxGyW3CaMjsUZF).
+   - Open the **Colab** notebook in Google **Colab**. You can also find it [here](https://colab.research.google.com/drive/16j09NYKs9FPTreZELs9z8wKmXLiDtN_C).
    - **Select a Runtime**:
     Click on `Runtime` > `Change runtime type`, set the hardware accelerator to `GPU` (preferably `T4` or higher), and connect to the runtime. This ensures faster processing during model inference.
 
