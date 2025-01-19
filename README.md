@@ -3,8 +3,10 @@
 
 ## Overview
 **Data Architect** is a Colab-based application designed to simplify and enhance dataset generation tasks using an intuitive Gradio UI. The project offers two distinct notebooks:  
-1. **data_architect.ipynb**: Provides a general-purpose dataset generator with user-defined fields, formats, and values.  
-2. **data_architect_multishot.ipynb**: Leverages a multishot approach, allowing users to provide examples to guide the generation process and improve dataset realism and context.
+1. **data_architect.ipynb**: 
+    - Provides a general-purpose dataset generator with user-defined fields, formats, and values.  
+2. **data_architect_multishot.ipynb**: 
+    - Leverages a multishot approach, allowing users to provide examples to guide the generation process and improve dataset realism and context.
 
 These tools enable users to customize, generate, and manage datasets effortlessly while integrating advanced models and tools for preprocessing, visualization, and storage. With Google Drive integration, users can ensure persistent storage and efficient workflows.
 
