@@ -1,8 +1,8 @@
 
-# Data Architect
+# DataSynth
 
 ## Overview
-**Data Architect** is a Colab-based application designed to simplify and enhance dataset generation tasks using an intuitive Gradio UI. The project offers two distinct notebooks:  
+**DataSynth** is a Colab-based application designed to simplify and enhance dataset generation tasks using an intuitive Gradio UI. The project offers two distinct notebooks:  
 1. **data_architect.ipynb**: 
     - Provides a general-purpose dataset generator with user-defined fields, formats, and values.  
 2. **data_architect_multishot.ipynb**: 
@@ -20,7 +20,7 @@ These tools enable users to customize, generate, and manage datasets effortlessl
 - **Gradio User Interface**: Simple, interactive UI for intuitive dataset creation and management.
 - **Model Integration**: Seamlessly works with Hugging Face `transformers` and OpenAI's API for data generation.
 - **Google Drive Integration**: Enables persistent storage of datasets and models across sessions.
-- **Preprocessing and Export**: Includes tools for preprocessing, visualization, and exporting datasets.
+- **Export**: A tool to generate and seamlessly export datasets.
 
 ---
 
@@ -28,8 +28,8 @@ These tools enable users to customize, generate, and manage datasets effortlessl
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/emads22/Data-Architect.git
-cd Data-Architect
+git clone https://github.com/emads22/DataSynth.git
+cd DataSynth
 ```
 
 ### Open the Notebooks in Colab
@@ -79,8 +79,8 @@ DRIVE_MODELS_DIR = DRIVE_DIR + "/my_models"
    - Specify dataset fields, formats, examples, and the number of samples.
 
 2. **Generate and Customize**:
-   - Use `data_architect.ipynb` for general customization.
-   - Use `data_architect_multishot.ipynb` to provide multiple examples and refine dataset generation.
+   - Use `datasynth.ipynb` for general customization.
+   - Use `datasynth_multishot.ipynb` to provide multiple examples and refine dataset generation.
 
 3. **Export and Save**:
    - Copy the dataset directly from the Gradio interface.
