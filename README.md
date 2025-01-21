@@ -3,9 +3,9 @@
 
 ## Overview
 **DataSynth** is a Colab-based application designed to simplify and enhance dataset generation tasks using an intuitive Gradio UI. The project offers two distinct notebooks:  
-1. **data_architect.ipynb**: 
+1. **datasynth.ipynb**: 
     - Provides a general-purpose dataset generator with user-defined fields, formats, and values.  
-2. **data_architect_multishot.ipynb**: 
+2. **datasynth_multishot.ipynb**: 
     - Leverages a multishot approach, allowing users to provide examples to guide the generation process and improve dataset realism and context.
 
 These tools enable users to customize, generate, and manage datasets effortlessly while integrating advanced models and tools for preprocessing, visualization, and storage. With Google Drive integration, users can ensure persistent storage and efficient workflows.
@@ -14,8 +14,8 @@ These tools enable users to customize, generate, and manage datasets effortlessl
 
 ## Features
 - **Two Notebooks for Dataset Generation**:
-  - General-purpose dataset generator (`data_architect.ipynb`).
-  - Multishot example-based generator (`data_architect_multishot.ipynb`).
+  - General-purpose dataset generator (`datasynth.ipynb`).
+  - Multishot example-based generator (`datasynth_multishot.ipynb`).
 - **Dataset Customization**: Define fields, formats, and example values to tailor synthetic datasets to specific needs.
 - **Gradio User Interface**: Simple, interactive UI for intuitive dataset creation and management.
 - **Model Integration**: Seamlessly works with Hugging Face `transformers` and OpenAI's API for data generation.
@@ -33,8 +33,8 @@ cd DataSynth
 ```
 
 ### Open the Notebooks in Colab
-- **[data_architect.ipynb](https://colab.research.google.com/drive/1TilvUxshUfbSCQDZ8ps2to5OrtIrYWWC)**  
-- **[data_architect_multishot.ipynb](https://colab.research.google.com/drive/16j09NYKs9FPTreZELs9z8wKmXLiDtN_C)**
+- **[datasynth.ipynb](https://colab.research.google.com/drive/1TilvUxshUfbSCQDZ8ps2to5OrtIrYWWC)**  
+- **[datasynth_multishot.ipynb](https://colab.research.google.com/drive/16j09NYKs9FPTreZELs9z8wKmXLiDtN_C)**
 
 ### Configure Runtime
 1. Open the desired Colab notebook.
